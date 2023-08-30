@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
 }
@@ -6,7 +7,7 @@ a{
     text-decoration: none;
 }
 header{
-    background:#1c211c;
+    background:#120909;
     color: white;
 
 }
@@ -23,5 +24,109 @@ video{
 }
 .navigation_content:hover{
      background: white;
-     color: #1c211c;
+     color: #120909;
+}
+.main_image{
+    position:relative;
+}
+
+.main_image_title{
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Vesper Libre', serif;
+    color: white;
+    font-size: 5rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#about{
+    text-align:center;
+    font-size: 2rem;
+    color: #120909;
+}
+#works{
+    text-align:center;
+    font-size: 2rem;
+    color: #120909;
+}
+#portfolio{
+    text-align:center;
+    font-size: 2rem;
+    color: #120909;
+}
+#contact{
+    text-align:center;
+    font-size: 2rem;
+    color: #120909;
+}
+h3{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+/* about area */
+
+.about_area{
+    display: flex;
+    margin: 0 2rem;
+}
+.about_icon{
+    margin: 2rem;
+    width: 40%;
+}
+.about_icon img{
+    border-radius: 50%;
+    width:50%;
+    padding: 4rem;
+    object-fit: cover;
+}
+.about_description{
+    margin:2rem;
+    width: 50%;
+}
+.about_content{
+    margin:0.4rem;
+}
+.about_skill{
+    margin: 2rem;
+}
+.about_skill_icon{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+/* portfolio_area*/
+.portfolio_area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio_content{
+
+    width: calc(100% / 3);
+}
+.portfolio_content_inner{
+    margin: 1rem;
+}
+.portfolio_content_image{
+    height: 300px;
+    object-fit: contain;
+
+    transform: 0.2s;
+}
+.portfolio_content_image:hover{
+    transform: scale(1.1, 1.1);
+}
+.portfolio_content_image_area{
+    overflow: hidden;
+}
+
+.portfolio_content_description_area{
+    font-size: 1.2rem;
+    text-align: center;
 }
